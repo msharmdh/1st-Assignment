@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title >
+            Top Five Food Items 
+        </title>
+
+
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+
+            .style1{
+                background-color: #bee4af;
+            }
+
+
+            .para2{
+                text-align:center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .style{
+    font-size: 20px;
+    padding:10pxpx 16px;
+
+    ;}
+    .btn{
+        border: 1px solid blue;
+        color: black;
+        font-family: sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        padding:  5px 10px;
+        display: inline-block;
+        position: relative;
+        transition: all 0.5s ease 0s;
+    }
+    .btn::after{
+        background-color: darkblue;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        z-index: -1;
+        transition: all 0.5s ease 0s;
+   
+    }
+
+    .btn:hover{
+        color: white;
+    }
+    .btn:hover::after{
+        width: 100%;
+
+    }
+    #menu{
+
+        background-color: aquamarine;
+        text-decoration: none;
+        font-size: 15px;
+        text-align: center;
+        position:sticky
+        top: 0;}
+        a{
+            text-decoration: none;
+        }
+         </style>
+    </head>
+
+    <body class="style1" >
+        <div style="background-color: lightgray;"
+        >
+        <a href="" class="Btn" >Inbox</a>
+        <a href="" class="Btn" >About</a>
+        <a href="" class="Btn" >Contact </a>
+    </div>
+
+    
+        <h1><u> Top Five Favorite Food Items</u> </h1>
+        
+
+       <div class="menu">
+        <ul>
+        <a href="#manchuriya" > Manchuriya</a>
+        <br/>
+        <a href="#Pizza" > Pizza</a><br/>
+        <a href="#Pasta" > Pasta</a><br/>
+        <a href="#Noodles" > Noodles</a><br/>
+        <a href="#Biryani" > Biryani</a><br/>
+    </ul>
+
+    </div>
+     
+          <div class="para2" id="Manchuriya">
+
+                <p class="stylepara">
+                <img src="https://bfoodale.com/uploads/2022/01/Chicken-Manchurian.jpg" alt="Manchuriya" width="400px" >
+                    <br/> <b> <u>Manchuriya</u</b>
+                
+            </p>
+           </div >
+            
+            <div class="para2" id="Pizza">
+                <p>
+                    <img src="https://c4.wallpaperflare.com/wallpaper/1017/647/742/food-pizza-still-life-hd-wallpaper-preview.jpg" alt="Pizza" width="400px">
+                           <br/>    <b><u>Pizza </u></b> 
+                         </p>
+                        </div>
+                    <div class="para2" id="Pasta">
+                        <p>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVP8UAAbSMkUlZ7jPyF_Cakry7LSuZxH8wW8L0ZY67&s" alt="Pasta" width="400px">
+                            <br/>  <b><u> </u> Pasta</b>
+                         </p>
+                        </div>
+                    <div class="para2" id="Noodles">
+                        <p>
+                            <img src="https://images.unsplash.com/photo-1607328874071-45a9cd600644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG5vb2RsZXN8ZW58MHx8MHx8&w=1000&q=80" alt="Noodles"width="400px">
+                             <br/>  <u>  <b>Noodles </u></b>
+                        </p>
+                    </div>
+                    <divi class="para2" id="Biryani">
+                        <p>
+                            <img src="https://t4.ftcdn.net/jpg/02/17/31/89/360_F_217318984_FZMBV8n1HSzoa0SwetR7P8hFZk0IZdaf.jpg" alt="Biryani"width="400px">
+                            <br/> <u> <b> Biryani </u></b>
+                        </p>
+                    </div>
+    
+        
+
+    </body>
+
+
+</html>
